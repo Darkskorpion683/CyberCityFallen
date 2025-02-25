@@ -1,0 +1,1 @@
+allowSpawn = true
