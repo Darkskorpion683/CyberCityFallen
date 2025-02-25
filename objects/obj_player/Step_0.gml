@@ -1,5 +1,6 @@
 var zoom_level = 2;
 
+// Player movement
 if keyboard_check(vk_right) {
 	sprite_index = CharacterRunning
 	directionFacing = 1
@@ -63,6 +64,8 @@ if (!keyboard_check(vk_left) &&
 		}
 		
 	}
+// End Movement
 
+// Room Bounds
 x = clamp(x, sprite_width, room_width-sprite_width)
 y = clamp(y, sprite_height/2, room_height-sprite_height/2)
