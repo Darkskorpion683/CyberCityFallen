@@ -1,1 +1,2 @@
-alarm[0] = swing_timer
+canAttack = true
+alarm[0] = attack_cooldown

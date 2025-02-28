@@ -1,2 +1,4 @@
-if other.hp < obj_player.damage
+if other.hp < damage
 	instance_destroy(other)
+else 
+	other.hp -= damage

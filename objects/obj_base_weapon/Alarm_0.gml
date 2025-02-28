@@ -1,1 +1,1 @@
-instance_destroy()
+canAttack = true;
