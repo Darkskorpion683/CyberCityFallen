@@ -1,29 +1,22 @@
 // Weapon placement
 if instance_exists(obj_player) {
-	/*
-	image_index = 0
-	x = obj_player.x
-	y = obj_player.y
-	*/
-	/* Needs fixing to have the sword change direction properly
-	   In order to fix we need to include the indicies where
-	   the sprite is idle AND when running, checking for direction with those*/
-	// Player facing right
-	if obj_player.image_index == 1 {
+	// Direction of weapon
+	
+	// Facing Right
+	if obj_player.direction_facing == 1 {
 		image_index = 1
-		x = obj_player.x + 10
-		y = obj_player.y
+		x = obj_player.x + 50
+		y = obj_player.y + 5
 	}
-	// Player facing left
-	if obj_player.image_index == 0 {
+	// Facing left
+	if obj_player.direction_facing == -1 {
 		image_index = 0
-		x = obj_player.x - 10
-		y = obj_player.y
+		x = obj_player.x - 20
+		y = obj_player.y + 5
 	}
-	
-	// Player idle
-	
-	
+
+
+
 }
 
 // Use weapon
