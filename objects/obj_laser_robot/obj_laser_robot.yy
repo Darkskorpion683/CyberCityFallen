@@ -38,7 +38,7 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"attack_range","filters":[],"listItems":[],"multiselect":false,"name":"attack_range","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"150","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"shoot_cooldown","filters":[],"listItems":[],"multiselect":false,"name":"shoot_cooldown","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"room_speed * 2","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"shoot_cooldown","filters":[],"listItems":[],"multiselect":false,"name":"shoot_cooldown","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"room_speed * 3","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -13,7 +13,7 @@ if canShoot and distance_to_object(obj_player) <= attack_range {
 	var laser = instance_create_layer(x, y, "Instances", obj_enemy_laser)
 	laser.image_angle = direction // Rotates laser sprite to face player
 	laser.direction = direction
-	laser.speed = 5
+	laser.speed = 3
 	
 	canShoot = false
 	alarm[0] = shoot_cooldown;
