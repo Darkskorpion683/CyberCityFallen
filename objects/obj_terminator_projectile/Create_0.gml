@@ -1,0 +1,1 @@
+original_speed = obj_player.move_speed
