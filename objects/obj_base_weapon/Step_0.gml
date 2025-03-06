@@ -39,8 +39,10 @@ if canAttack == true {
 		// Deal damage to target and reset attack cooldown
 		if (canHit == true) {
 			target.hp -= damage
+			
 			alarm[0] = attack_cooldown
 		} else {
+			
 			alarm[0] = attack_cooldown	
 		}
 	}

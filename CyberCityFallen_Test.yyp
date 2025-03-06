@@ -45,6 +45,7 @@
     {"id":{"name":"obj_projectile_weapon","path":"objects/obj_projectile_weapon/obj_projectile_weapon.yy",},},
     {"id":{"name":"obj_scoreboard","path":"objects/obj_scoreboard/obj_scoreboard.yy",},},
     {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},},
+    {"id":{"name":"Upgrade","path":"objects/Upgrade/Upgrade.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"scr_spawning","path":"scripts/scr_spawning/scr_spawning.yy",},},
     {"id":{"name":"CharacterIdle","path":"sprites/CharacterIdle/CharacterIdle.yy",},},
