@@ -19,8 +19,6 @@ if instance_exists(obj_player) {
 			net.speed = 1.5
 		}
 
-
-	
 		canShoot = false
 		alarm[0] = shoot_cooldown;
 	}
