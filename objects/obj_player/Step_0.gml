@@ -1,6 +1,19 @@
 var zoom_level = 2;
 
+
 // Player movement
+
+// State: Trapped for netted player
+if (trapped) {
+    // Lock the player's position to the trapped position
+    x = trapped_x;
+    y = trapped_y;
+	
+	exit;
+}
+
+
+// State: Not trapped aka normal state
 if keyboard_check(vk_right) {
 	sprite_index = CharacterRunning
 	direction_facing = 1
@@ -62,12 +75,16 @@ if (!keyboard_check(vk_left) &&
 			sprite_index = CharacterIdle
 			image_xscale = 1
 		}
+
+}
+// End Movement
+
+
+// Health check for regen upgrade
 while(obj_player.hp<=obj_player.hp_max){
 	obj_player.hp+=obj_player.hp_regen
 }
-		
-	}
-// End Movement
+
 
 // Room Bounds
 x = clamp(x, sprite_width, room_width-sprite_width)

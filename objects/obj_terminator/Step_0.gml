@@ -12,7 +12,14 @@ if instance_exists(obj_player) {
 		var net = instance_create_layer(x, y, "Instances", obj_terminator_projectile)
 		net.image_angle = direction // Rotates laser sprite to face player
 		net.direction = direction
-		net.speed = 1
+		// Change net speed based on terminator speed
+		if hp <= 50 {
+			net.speed = 3
+		} else {
+			net.speed = 1.5
+		}
+
+
 	
 		canShoot = false
 		alarm[0] = shoot_cooldown;
