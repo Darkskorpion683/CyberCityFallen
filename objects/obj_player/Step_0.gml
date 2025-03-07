@@ -62,6 +62,9 @@ if (!keyboard_check(vk_left) &&
 			sprite_index = CharacterIdle
 			image_xscale = 1
 		}
+while(obj_player.hp<=obj_player.hp_max){
+	obj_player.hp+=obj_player.hp_regen
+}
 		
 	}
 // End Movement
