@@ -1,28 +1,22 @@
-if (mouse_check_button_pressed(mb_left)) {
-    if (hovered_weapon == "laser") {
-        obj_projectile_weapon.damage += weapon_bonus_laser_damage;
-        obj_projectile_weapon.attack_cooldown = max(5, obj_projectile_weapon.attack_cooldown + weapon_bonus_laser_cooldown);
-        obj_player.max_hp += weapon_bonus_laser_hp;
-        obj_player.hp += weapon_bonus_laser_hp;
+if (mouse_check_button_pressed(mb_left) && hovered_weapon!="") {
+    if (hovered_weapon == "projectile") {
+        apply_bonus(obj_projectile_weapon, projectile_weapon_upgrade[0]);
+        apply_bonus(obj_projectile_weapon, projectile_weapon_upgrade[1]);
         option_selected = true;
     } 
-    else if (hovered_weapon == "plasma") {
-        obj_plasma.damage += weapon_bonus_plasma_damage;
-        player.fire_cooldown = max(5, player.fire_cooldown + weapon_bonus_plasma_cooldown);
-        obj_player.max_hp += weapon_bonus_plasma_hp;
-        obj_player.hp += weapon_bonus_plasma_hp;
+    else if (hovered_weapon == "aoe") {
+        apply_bonus(obj_aoe_weapon, aoe_weapon_upgrade[0]);
+        apply_bonus(obj_aoe_weapon, aoe_weapon_upgrade[1]);
         option_selected = true;
     } 
     else if (hovered_weapon == "sword") {
-        obj_base_weapon.damage += weapon_bonus_sword_damage;
-        obj_base_weapon.attack_cooldown = max(5, obj_base_weapon.attack_cooldown + weapon_bonus_sword_cooldown);
-        obj_player.max_hp += weapon_bonus_sword_hp;
-        obj_player.hp += weapon_bonus_sword_hp;
+        apply_bonus(obj_base_weapon, sword_weapon_upgrade[0]);
+        apply_bonus(obj_base_weapon, sword_weapon_upgrade[1]);
         option_selected = true;
     }
 }
 
-// Close UI and resume game
+// Resume game after selection
 if (option_selected) {
     global.game_paused = false;
     instance_destroy();

@@ -50,6 +50,8 @@
     {"id":{"name":"obj_terminator","path":"objects/obj_terminator/obj_terminator.yy",},},
     {"id":{"name":"Upgrade","path":"objects/Upgrade/Upgrade.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"scr_apply_upgrades","path":"scripts/scr_apply_upgrades/scr_apply_upgrades.yy",},},
+    {"id":{"name":"scr_random_upgrades","path":"scripts/scr_random_upgrades/scr_random_upgrades.yy",},},
     {"id":{"name":"scr_spawning","path":"scripts/scr_spawning/scr_spawning.yy",},},
     {"id":{"name":"CharacterIdle","path":"sprites/CharacterIdle/CharacterIdle.yy",},},
     {"id":{"name":"CharacterRunning","path":"sprites/CharacterRunning/CharacterRunning.yy",},},
