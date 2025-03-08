@@ -81,6 +81,8 @@ if (!keyboard_check(vk_left) &&
 
 
 // Health check for regen upgrade
+/* Needs fixing with a timer, currently just instantly regens everything
+*/
 while(obj_player.hp<=obj_player.hp_max){
 	obj_player.hp+=obj_player.hp_regen
 }
