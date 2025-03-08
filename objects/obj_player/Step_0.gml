@@ -79,6 +79,10 @@ if (!keyboard_check(vk_left) &&
 }
 // End Movement
 
+// XP check for upgrade menu
+if XP == 0
+	instance_create_layer(x, y, "Instances", Upgrade)
+
 
 // Health check for regen upgrade
 /* Needs fixing with a timer, currently just instantly regens everything

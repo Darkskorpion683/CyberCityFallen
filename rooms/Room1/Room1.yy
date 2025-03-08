@@ -43,7 +43,6 @@
     {"name":"inst_4D8CDF9C","path":"rooms/Room1/Room1.yy",},
     {"name":"laser_robot_spawner","path":"rooms/Room1/Room1.yy",},
     {"name":"terminator_spawner","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_4F351148","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -64,7 +63,6 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},"propertyId":{"name":"objectType","path":"objects/obj_spawner/obj_spawner.yy",},"resource":{"name":"obj_terminator","path":"objects/obj_terminator/obj_terminator.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_terminator",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},"propertyId":{"name":"spawnInterval","path":"objects/obj_spawner/obj_spawner.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5000",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":704.0,"y":448.0,},
-        {"$GMRInstance":"v1","%Name":"inst_4F351148","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4F351148","objectId":{"name":"obj_xp_drop","path":"objects/obj_xp_drop/obj_xp_drop.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":864.0,"y":448.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances_1","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_42DC323F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_42DC323F","objectId":{"name":"obj_Building1","path":"objects/obj_Building1/obj_Building1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1056.0,"y":352.0,},
