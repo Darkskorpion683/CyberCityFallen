@@ -41,4 +41,3 @@ for (var i = 0; i < array_length(weapons); i++) {
         draw_text(wx + 50, wy + 50, "+ " + string(weapons[i].bonus[1]));
     }
 }
-
