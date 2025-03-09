@@ -45,8 +45,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_test_laser_robot",
-    "path":"sprites/spr_test_laser_robot/spr_test_laser_robot.yy",
+    "name":"spr_Drone",
+    "path":"sprites/spr_Drone/spr_Drone.yy",
   },
   "spriteMaskId":null,
   "visible":true,

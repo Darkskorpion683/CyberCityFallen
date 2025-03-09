@@ -1,3 +1,2 @@
-// Damage player if hit and destory laser
-other.hp -= damage
+other.hp -= obj_player.attackdmg_ranged
 instance_destroy()
