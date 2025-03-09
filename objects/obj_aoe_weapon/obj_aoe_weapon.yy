@@ -10,18 +10,12 @@
   ],
   "managed":true,
   "name":"obj_aoe_weapon",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_base_weapon","path":"objects/obj_base_weapon/obj_base_weapon.yy",},"propertyId":{"name":"attack_cooldown","path":"objects/obj_base_weapon/obj_base_weapon.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"40",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_base_weapon","path":"objects/obj_base_weapon/obj_base_weapon.yy",},"propertyId":{"name":"damage","path":"objects/obj_base_weapon/obj_base_weapon.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
-  ],
+  "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_base_weapon",
-    "path":"objects/obj_base_weapon/obj_base_weapon.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

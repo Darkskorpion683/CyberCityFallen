@@ -6,8 +6,20 @@ if instance_exists(obj_player)
 	} else {
 		speed = hsp;	
 	}
-	
-	
+
+//Rotates sprite to face player
+if (obj_player.x > x) {
+    if (image_xscale != 1) {
+        image_xscale = 1; 
+    }
+}
+
+else if (obj_player.x < x) {
+    if (image_xscale != -1) {
+        image_xscale = -1; 
+    }
+}
+
 // Shooting Logic
 if canShoot and distance_to_object(obj_player) <= attack_range {
 	var laser = instance_create_layer(x, y, "Instances", obj_enemy_laser)
