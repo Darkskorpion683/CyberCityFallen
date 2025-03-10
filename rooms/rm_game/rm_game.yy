@@ -6,6 +6,7 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
+<<<<<<< HEAD:rooms/rm_game/rm_game.yy
     {"name":"inst_40AB6907","path":"rooms/rm_game/rm_game.yy",},
     {"name":"base_robot_spawner","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_4D8CDF9C","path":"rooms/rm_game/rm_game.yy",},
@@ -21,6 +22,24 @@
     {"name":"inst_5B63CE15","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_5EA471DC","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_685C8E7C","path":"rooms/rm_game/rm_game.yy",},
+=======
+    {"name":"inst_40AB6907","path":"rooms/Room1/Room1.yy",},
+    {"name":"base_robot_spawner","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_4D8CDF9C","path":"rooms/Room1/Room1.yy",},
+    {"name":"laser_robot_spawner","path":"rooms/Room1/Room1.yy",},
+    {"name":"terminator_spawner","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_7E28CA40","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_69C175DF","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_11FB361A","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_1C8E5EDA","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_7E2808B9","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_52080258","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_52505444","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_5B63CE15","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_5EA471DC","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_685C8E7C","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_3EB5962B","path":"rooms/Room1/Room1.yy",},
+>>>>>>> 28d44afeecbf8222c9b51ffc543a223d51d316ee:rooms/Room1/Room1.yy
   ],
   "isDnd":false,
   "layers":[
@@ -48,6 +67,7 @@
         {"$GMRInstance":"v1","%Name":"inst_5B63CE15","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5B63CE15","objectId":{"name":"obj_xp_drop","path":"objects/obj_xp_drop/obj_xp_drop.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":928.0,"y":480.0,},
         {"$GMRInstance":"v1","%Name":"inst_5EA471DC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5EA471DC","objectId":{"name":"obj_xp_drop","path":"objects/obj_xp_drop/obj_xp_drop.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":960.0,"y":480.0,},
         {"$GMRInstance":"v1","%Name":"inst_685C8E7C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_685C8E7C","objectId":{"name":"obj_xp_drop","path":"objects/obj_xp_drop/obj_xp_drop.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":864.0,"y":448.0,},
+        {"$GMRInstance":"v1","%Name":"inst_3EB5962B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3EB5962B","objectId":{"name":"obj_aoe_weapon","path":"objects/obj_aoe_weapon/obj_aoe_weapon.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":608.0,"y":448.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":40,"SerialiseWidth":40,"TileCompressedData":[
           -22,11,-18,-2147483648,-4,11,-3,47,-4,13,-2,11,1,47,-3,11,1,47,-4,11,-18,-2147483648,-6,11,6,47,11,11,

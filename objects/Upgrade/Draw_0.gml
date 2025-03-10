@@ -6,8 +6,8 @@ var spacing = 20;
 // Weapon selection boxes
 var weapons = [
     {name: "Projectile Weapon", upgrade: projectile_weapon_upgrade, sprite: spr_projectile_weapon, id: "laser"},
-    {name: "Aoe Weapon", aoe: projectile_weapon_upgrade, sprite: spr_aoe_weapon, id: "plasma"},
-    {name: "Sword", upgrade: sword_weapon_upgrade, sprite: spr_base_weapon, id: "sword"}
+    {name: "Aoe Weapon", upgrade: aoe_weapon_upgrade, sprite: spr_aoe_weapon, id: "plasma"},
+    {name: "melee", upgrade: melee_weapon_upgrade, sprite: spr_base_weapon, id: "melee"}
 ];
 
 // Detect mouse hover & draw boxes
