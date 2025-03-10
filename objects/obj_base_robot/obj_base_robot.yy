@@ -10,6 +10,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
 =======
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_aoe_weapon","path":"objects/obj_aoe_weapon/obj_aoe_weapon.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -17,6 +18,9 @@
 >>>>>>> 28d44afeecbf8222c9b51ffc543a223d51d316ee
 =======
 >>>>>>> parent of ec64f6d (added music for game and menu, added sound for xp pickup)
+=======
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+>>>>>>> parent of f8bcc08 (mergert)
   ],
   "managed":true,
   "name":"obj_base_robot",
@@ -50,12 +54,16 @@
     {"$GMObjectProperty":"v1","%Name":"beenSlashed","filters":[],"listItems":[],"multiselect":false,"name":"beenSlashed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     {"$GMObjectProperty":"v1","%Name":"attack_cooldown","filters":[],"listItems":[],"multiselect":false,"name":"attack_cooldown","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"100","varType":1,},
 =======
     {"$GMObjectProperty":"v1","%Name":"beenAOEd","filters":[],"listItems":[],"multiselect":false,"name":"beenAOEd","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
 >>>>>>> 28d44afeecbf8222c9b51ffc543a223d51d316ee
 =======
 >>>>>>> parent of ec64f6d (added music for game and menu, added sound for xp pickup)
+=======
+    {"$GMObjectProperty":"v1","%Name":"attack_cooldown","filters":[],"listItems":[],"multiselect":false,"name":"attack_cooldown","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"100","varType":1,},
+>>>>>>> parent of f8bcc08 (mergert)
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
