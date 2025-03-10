@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"Skibidi_Techno_Nick_Comet.mp3",
   "type":0,
-  "volume":0.2,
+  "volume":0.1,
 }
