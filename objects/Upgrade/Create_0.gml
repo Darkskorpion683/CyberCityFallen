@@ -2,8 +2,8 @@
 projectile_weapon_upgrade=get_random_upgrade()
 //Generate random upgrades for Aoe weapon
 aoe_weapon_upgrade=get_random_upgrade()
-//Generate random upgrades for melee
-melee_weapon_upgrade=get_random_upgrade()
+//Generate random upgrades for sword
+sword_weapon_upgrade=get_random_upgrade()
 
 
 
