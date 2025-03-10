@@ -89,11 +89,11 @@ if XP == 0
 
 // Health check for regen upgrade
 /* Needs fixing with a timer, currently just instantly regens everything
-*/
+
 while(obj_player.hp<=obj_player.hp_max){
 	obj_player.hp+=obj_player.hp_regen
 }
-
+*/
 
 // Room Bounds
 x = clamp(x, sprite_width, room_width-sprite_width)

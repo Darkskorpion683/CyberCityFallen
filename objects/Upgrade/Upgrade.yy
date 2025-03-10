@@ -10,8 +10,8 @@
   "name":"Upgrade",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"invisible objects",
+    "path":"folders/Objects/invisible objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

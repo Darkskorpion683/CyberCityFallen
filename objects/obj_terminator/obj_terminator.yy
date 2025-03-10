@@ -17,8 +17,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_base_robot","path":"objects/obj_base_robot/obj_base_robot.yy",},"propertyId":{"name":"objectType","path":"objects/obj_base_robot/obj_base_robot.yy",},"resource":{"name":"obj_terminator","path":"objects/obj_terminator/obj_terminator.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_terminator",},
   ],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"enemies",
+    "path":"folders/Objects/enemies.yy",
   },
   "parentObjectId":{
     "name":"obj_base_robot",
