@@ -25,4 +25,13 @@ if instance_exists(obj_player) {
 
 	// Track health
 	if hp <= 0 then instance_destroy()
+	
+	// Deal damage to player
+	if place_meeting(x, y, obj_player) {
+    if canAttack {
+        canAttack = false
+        obj_player.hp -= damage
+        alarm[3] = attack_cooldown
+    }
+}
 }

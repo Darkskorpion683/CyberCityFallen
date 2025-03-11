@@ -7,6 +7,8 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":3,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_terminator",
@@ -15,6 +17,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_base_robot","path":"objects/obj_base_robot/obj_base_robot.yy",},"propertyId":{"name":"damage","path":"objects/obj_base_robot/obj_base_robot.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"25",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_base_robot","path":"objects/obj_base_robot/obj_base_robot.yy",},"propertyId":{"name":"hp","path":"objects/obj_base_robot/obj_base_robot.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"100",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_base_robot","path":"objects/obj_base_robot/obj_base_robot.yy",},"propertyId":{"name":"objectType","path":"objects/obj_base_robot/obj_base_robot.yy",},"resource":{"name":"obj_terminator","path":"objects/obj_terminator/obj_terminator.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_terminator",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_base_robot","path":"objects/obj_base_robot/obj_base_robot.yy",},"propertyId":{"name":"attack_cooldown","path":"objects/obj_base_robot/obj_base_robot.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"60",},
   ],
   "parent":{
     "name":"enemies",
