@@ -94,6 +94,9 @@ while(obj_player.hp<=obj_player.hp_max){
 	obj_player.hp+=obj_player.hp_regen
 }
 */
+if hp <= 0 {
+	instance_destroy()	
+}
 
 // Room Bounds
 x = clamp(x, sprite_width, room_width-sprite_width)
