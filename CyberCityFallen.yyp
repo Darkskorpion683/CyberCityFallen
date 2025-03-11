@@ -75,6 +75,7 @@
     {"id":{"name":"Skibidi_Techno_Nick_Comet","path":"sounds/Skibidi_Techno_Nick_Comet/Skibidi_Techno_Nick_Comet.yy",},},
     {"id":{"name":"snd_game_over","path":"sounds/snd_game_over/snd_game_over.yy",},},
     {"id":{"name":"snd_player_death","path":"sounds/snd_player_death/snd_player_death.yy",},},
+    {"id":{"name":"snd_win","path":"sounds/snd_win/snd_win.yy",},},
     {"id":{"name":"snd_xp_pickup","path":"sounds/snd_xp_pickup/snd_xp_pickup.yy",},},
     {"id":{"name":"spr_animated_menu","path":"sprites/spr_animated_menu/spr_animated_menu.yy",},},
     {"id":{"name":"spr_aoe_weapon","path":"sprites/spr_aoe_weapon/spr_aoe_weapon.yy",},},
