@@ -39,6 +39,8 @@
   },
   "name":"CyberCityFallen_Test",
   "resources":[
+    {"id":{"name":"timer_font","path":"fonts/timer_font/timer_font.yy",},},
+    {"id":{"name":"xp_font","path":"fonts/xp_font/xp_font.yy",},},
     {"id":{"name":"obj_aoe_weapon","path":"objects/obj_aoe_weapon/obj_aoe_weapon.yy",},},
     {"id":{"name":"obj_base_robot","path":"objects/obj_base_robot/obj_base_robot.yy",},},
     {"id":{"name":"obj_Building1","path":"objects/obj_Building1/obj_Building1.yy",},},
