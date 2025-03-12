@@ -1,1 +1,1 @@
-allowSpawn = true
+allowSpawn = false;
