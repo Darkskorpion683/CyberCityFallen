@@ -9,7 +9,8 @@ if (trapped) {
     y = trapped_y;
 	
 	exit;
-} else {
+}
+
 // State: Not trapped aka normal state
 if keyboard_check(vk_right) {
 	if(!hasArmor){
