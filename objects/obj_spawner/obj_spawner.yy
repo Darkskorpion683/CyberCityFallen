@@ -32,6 +32,7 @@
     {"$GMObjectProperty":"v1","%Name":"spawnInterval","filters":[],"listItems":[],"multiselect":false,"name":"spawnInterval","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"spawnDelay","filters":[],"listItems":[],"multiselect":false,"name":"spawnDelay","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"allowSpawn","filters":[],"listItems":[],"multiselect":false,"name":"allowSpawn","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"spawnStopTime","filters":[],"listItems":[],"multiselect":false,"name":"spawnStopTime","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

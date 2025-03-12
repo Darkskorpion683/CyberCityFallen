@@ -1,6 +1,13 @@
 // Check if spawn delay condition is met
-if !alarm[0] && obj_scoreboard.time_elapsed div 3600 >= spawnDelay {
+if !alarm[0] && obj_scoreboard.time_elapsed / 3600 >= spawnDelay {
     allowSpawn = true;
+	
+	// Only allow spawning if the time is still within the limit
+    if obj_scoreboard.time_elapsed / 3600 <= spawnStopTime {
+        allowSpawn = true;
+    } else {
+        allowSpawn = false; // Permanently disable base spawns
+    }
 }
 
 // Spawning logic
