@@ -10,8 +10,9 @@ if (trapped) {
 	
 	exit;
 }
-
-
+//tracks player position to place upgrade
+global.player_x = x; // Store the player's x position
+global.player_y = y; // Store the player's y position
 // State: Not trapped aka normal state
 if keyboard_check(vk_right) {
 	if(!hasArmor){
@@ -63,6 +64,7 @@ if keyboard_check(vk_up){
 	}
 		
 }
+}
 
 if keyboard_check(vk_down){
 	if !place_meeting(x, y+move_speed, obj_Building1){
@@ -85,6 +87,7 @@ if keyboard_check(vk_down){
 		image_xscale = -1
 	}
 }
+}
 
 if (!keyboard_check(vk_left) && 
     !keyboard_check(vk_right) && 
@@ -92,14 +95,14 @@ if (!keyboard_check(vk_left) &&
     !keyboard_check(vk_down)){
 		if direction_facing == -1 {
 			if(!hasArmor){
-			sprite_index = spr_CharacterRunning
+			sprite_index = spr_CharacterIdle
 			}else{
-			sprite_index = spr_Character_Running_Suit
+			sprite_index = spr_Character_Idle_Suit
 			image_xscale = -1
 			}
 		}
 	}else{
-			if(!hasArmor){
+		if(!hasArmor){
 		sprite_index = spr_CharacterRunning
 		}else{
 		sprite_index = spr_Character_Running_Suit
@@ -116,16 +119,11 @@ if (!keyboard_check(vk_left) &&
 // XP check for upgrade menu
 if XP == 0{
 	instance_create_layer(x, y, "Instances", Upgrade)
+	XP=100
 }
 
 
-// Health check for regen upgrade
-/* Needs fixing with a timer, currently just instantly regens everything
 
-while(obj_player.hp<=obj_player.hp_max){
-	obj_player.hp+=obj_player.hp_regen
-}
-*/
 if hp <= 0 {
 	instance_destroy()	
 }
