@@ -9,9 +9,7 @@ if (trapped) {
     y = trapped_y;
 	
 	exit;
-}
-
-
+} else {
 // State: Not trapped aka normal state
 if keyboard_check(vk_right) {
 	if(!hasArmor){
@@ -50,6 +48,7 @@ if keyboard_check(vk_up){
 		sprite_index = spr_CharacterRunning
 		}else{
 		sprite_index = spr_Character_Running_Suit
+		}
 	}
 		
 		image_xscale = 1
@@ -98,23 +97,22 @@ if (!keyboard_check(vk_left) &&
 			image_xscale = -1
 			}
 		}
-	}else{
-			if(!hasArmor){
-		sprite_index = spr_CharacterRunning
-		}else{
-		sprite_index = spr_Character_Running_Suit
-		
+	} else{
+		if(!hasArmor){
+			sprite_index = spr_CharacterRunning
+		} else {
+			sprite_index = spr_Character_Running_Suit
 			image_xscale = 1
 		}
 	}
-
+}
 // End Movement
 
 //Weapons
 // will check if weapon has been obtained, then calculate what it does based on level and upgrades.
 
 // XP check for upgrade menu
-if XP == 0{
+if XP == 0 {
 	instance_create_layer(x, y, "Instances", Upgrade)
 }
 
