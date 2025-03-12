@@ -52,8 +52,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Character_Idle_Suit",
-    "path":"sprites/spr_Character_Idle_Suit/spr_Character_Idle_Suit.yy",
+    "name":"spr_CharacterIdle",
+    "path":"sprites/spr_CharacterIdle/spr_CharacterIdle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
