@@ -9,8 +9,8 @@
   "name":"obj_terminator_projectile",
   "overriddenProperties":[],
   "parent":{
-    "name":"enemies",
-    "path":"folders/Objects/enemies.yy",
+    "name":"terminators",
+    "path":"folders/Objects/enemies/terminators.yy",
   },
   "parentObjectId":{
     "name":"obj_enemy_laser",

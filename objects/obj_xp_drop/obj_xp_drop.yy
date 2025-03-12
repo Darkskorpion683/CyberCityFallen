@@ -9,8 +9,8 @@
   "name":"obj_xp_drop",
   "overriddenProperties":[],
   "parent":{
-    "name":"enemies",
-    "path":"folders/Objects/enemies.yy",
+    "name":"xp_drops",
+    "path":"folders/Objects/xp_drops.yy",
   },
   "parentObjectId":null,
   "persistent":false,

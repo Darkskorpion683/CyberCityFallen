@@ -10,6 +10,8 @@ if (trapped) {
 }
 
 // State: Not trapped aka normal state
+
+// State: Character running
 if keyboard_check(vk_right) {
     sprite_index = hasArmor ? spr_Character_Running_Suit : spr_CharacterRunning;
     direction_facing = 1;
@@ -44,7 +46,7 @@ if keyboard_check(vk_down) {
     image_xscale = direction_facing;
 }
 
-// Idle State (when no movement keys are pressed)
+// State: Character idle (when no movement keys are pressed)
 if (!keyboard_check(vk_left) && 
     !keyboard_check(vk_right) && 
     !keyboard_check(vk_up) && 
@@ -54,6 +56,7 @@ if (!keyboard_check(vk_left) &&
     image_xscale = direction_facing;
 }
 
+// End movement 
 
 //Weapons
 // will check if weapon has been obtained, then calculate what it does based on level and upgrades.

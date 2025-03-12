@@ -14,8 +14,8 @@
   "name":"obj_base_robot",
   "overriddenProperties":[],
   "parent":{
-    "name":"enemies",
-    "path":"folders/Objects/enemies.yy",
+    "name":"base robots",
+    "path":"folders/Objects/enemies/base robots.yy",
   },
   "parentObjectId":null,
   "persistent":false,
