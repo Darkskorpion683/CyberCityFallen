@@ -1,5 +1,4 @@
 var zoom_level = 2;
-
 // Player movement
 
 // State: Trapped for netted player
@@ -62,17 +61,14 @@ if (!keyboard_check(vk_left) &&
 // will check if weapon has been obtained, then calculate what it does based on level and upgrades.
 
 // XP check for upgrade menu
-if XP == 0 {
-	instance_create_layer(x, y, "Instances", Upgrade)
+if(XP==0){
+instance_create_layer(obj_player.x, obj_player.y, "UI_Layer", obj_upgrade);
+speed=0
 }
-
-
 // Health check for regen upgrade
 /* Needs fixing with a timer, currently just instantly regens everything
 
-while(obj_player.hp<=obj_player.hp_max){
-	obj_player.hp+=obj_player.hp_regen
-}
+
 */
 if hp <= 0 {
 	instance_destroy()	
@@ -81,3 +77,9 @@ if hp <= 0 {
 // Room Bounds
 x = clamp(x, sprite_width, room_width-sprite_width)
 y = clamp(y, sprite_height/2, room_height-sprite_height/2)
+
+
+    
+
+
+    

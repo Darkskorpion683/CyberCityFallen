@@ -1,3 +1,8 @@
+global.paused = false;
+global.selected_upgrades = [];
+global.upgrade_effects = [];
+global.upgrade_selected = false;
+
 // Trapped state
 trapped = false
 //Melee attack alarm start
@@ -8,3 +13,4 @@ alarm[2] = attackspeed_ranged
 // the draw_healthbar is being used for xp, which is descending, so xp must be descending, yet it seems ascending
 // to the player
 XP = 100
+
