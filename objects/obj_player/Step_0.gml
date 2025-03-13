@@ -57,19 +57,19 @@ if (!keyboard_check(vk_left) &&
 
 // End movement 
 
-//Weapons
-// will check if weapon has been obtained, then calculate what it does based on level and upgrades.
 
 // XP check for upgrade menu
-if(XP==0){
-instance_create_layer(obj_player.x, obj_player.y, "UI_Layer", obj_upgrade);
-XP=100
+if (XP == 0) {
+	instance_create_layer(obj_player.x, obj_player.y, "UI_Layer", obj_upgrade);
+	XP = 100
 }
 // Health check for regen upgrade
 /* Needs fixing with a timer, currently just instantly regens everything
 
 
 */
+
+// Player Death
 if hp <= 0 {
 	instance_destroy()	
 }
