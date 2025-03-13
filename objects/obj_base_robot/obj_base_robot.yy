@@ -47,8 +47,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_test_enemy",
-    "path":"sprites/spr_test_enemy/spr_test_enemy.yy",
+    "name":"spr_base_robot",
+    "path":"sprites/spr_base_robot/spr_base_robot.yy",
   },
   "spriteMaskId":null,
   "visible":true,

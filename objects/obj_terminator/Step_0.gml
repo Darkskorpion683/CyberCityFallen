@@ -35,3 +35,16 @@ if instance_exists(obj_player) {
     }
 }
 }
+
+//Rotates sprite to face player
+if (obj_player.x > x) {
+    if (image_xscale != 1) {
+        image_xscale = 1; 
+    }
+}
+
+else if (obj_player.x < x) {
+    if (image_xscale != -1) {
+        image_xscale = -1; 
+    }
+}

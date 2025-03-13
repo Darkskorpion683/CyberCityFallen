@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":166.78894,
+  "duration":112.9883,
   "name":"Skibidi_Techno_Nick_Comet",
   "parent":{
     "name":"Sounds",
@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"Skibidi_Techno_Nick_Comet.mp3",
   "type":0,
-  "volume":0.2,
+  "volume":0.16,
 }
