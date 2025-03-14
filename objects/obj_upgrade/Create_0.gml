@@ -8,18 +8,18 @@ var button_spacing = 60;
 
 
 upgrade_pool = [
-    {type: "attackdmg_melee", label: "Melee Damage", value:0.2 },
+    {type: "attackdmg_melee", label: "Melee Damage", value:0.5 },
     {type: "attackrange_melee", label: "Melee Range", value: 0.3 },
-    {type: "attackspeed_melee", label: "Melee Speed", value: 0.2},
-    {type: "attackdmg_ranged", label: "Projectile Damage", value :0.4 },
-    {type: "attackrange_ranged", label:"Projectile Range", value: 0.2},
-    {type: "attackspeed_ranged", label: "Projectile Speed", value:0.3},
-    {type: "attackdmg_aoe", label: "AOE Damage", value:0.3},
-    {type: "attackrange_aoe", label: "AOE Range", value: 0.2},
-    {type: "hp_max", label: "Max Health", value: 3},
-    {type: "move_speed", label: "Speed", value: 0.1},
+    {type: "attackspeed_melee", label: "Melee Speed", value: 0.5},
+    {type: "attackdmg_ranged", label: "Projectile Damage", value :0.5 },
+    {type: "attackrange_ranged", label:"Projectile Range", value: 0.5},
+    {type: "attackspeed_ranged", label: "Projectile Speed", value:0.5},
+    {type: "attackdmg_aoe", label: "AOE Damage", value:0.5},
+    {type: "attackrange_aoe", label: "AOE Range", value: 0.5},
+    {type: "hp_max", label: "Max Health", value: 10},
+    {type: "move_speed", label: "Speed", value: 0.25},
     {type: "hp_regen", label: "Regen", value:0.5},
-	{type: "hp", label: "Health", value:5}
+	{type: "hp", label: "Health", value: 25}
 ];
 
 // Check if the player does not have ranged weapon
@@ -46,7 +46,7 @@ if (!obj_player.hasAOE) {
 available_upgrades = [];
 
 if (array_length(available_upgrades) == 0 && obj_player.upgrade_call_count==0) {
-    array_push(available_upgrades, {type: "hp_max", label: "Max Health", value: 3});
+    array_push(available_upgrades, {type: "hp_max", label: "Equip Armor (Health)", value: 3});
 }
 /*
 for (var i = 0; i < 3; i++) { // Select 3 random upgrades to offer

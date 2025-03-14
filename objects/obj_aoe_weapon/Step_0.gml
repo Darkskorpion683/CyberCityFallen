@@ -7,9 +7,6 @@ if instance_exists(obj_player) {
      sprite_index = spr_aoe_weapon
      image_xscale = obj_player.attackrange_aoe
      image_yscale = obj_player.attackrange_aoe
-     if(hasCooldown){
-
-     }
  }
  else{
      sprite_index = noone
