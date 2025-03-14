@@ -109,6 +109,8 @@
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
     {"id":{"name":"spr_Character_Idle_Suit","path":"sprites/spr_Character_Idle_Suit/spr_Character_Idle_Suit.yy",},},
     {"id":{"name":"spr_Character_Running_Suit","path":"sprites/spr_Character_Running_Suit/spr_Character_Running_Suit.yy",},},
+    {"id":{"name":"spr_Character_trapped_suit","path":"sprites/spr_Character_trapped_suit/spr_Character_trapped_suit.yy",},},
+    {"id":{"name":"spr_Character_trapped","path":"sprites/spr_Character_trapped/spr_Character_trapped.yy",},},
     {"id":{"name":"spr_CharacterIdle","path":"sprites/spr_CharacterIdle/spr_CharacterIdle.yy",},},
     {"id":{"name":"spr_CharacterRunning","path":"sprites/spr_CharacterRunning/spr_CharacterRunning.yy",},},
     {"id":{"name":"spr_credits","path":"sprites/spr_credits/spr_credits.yy",},},

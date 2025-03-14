@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_base_robot_level3",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_base_robot_level3",
   "overriddenProperties":[
@@ -35,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_base_robot_level3",
-    "path":"sprites/spr_base_robot_level3/spr_base_robot_level3.yy",
+    "name":"spr_base_robot",
+    "path":"sprites/spr_base_robot/spr_base_robot.yy",
   },
   "spriteMaskId":null,
   "visible":true,

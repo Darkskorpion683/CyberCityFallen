@@ -5,6 +5,8 @@ if(!player_disabled){
 if (trapped) {
     x = trapped_x;
     y = trapped_y;
+	sprite_index = hasArmor ? spr_Character_trapped_suit : spr_Character_trapped
+	direction_facing = -1
     return;
 }
 

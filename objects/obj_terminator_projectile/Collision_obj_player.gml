@@ -1,4 +1,4 @@
-instance_destroy();
+instance_destroy()
 
 // Set the player's state to trapped
 obj_player.trapped = true
