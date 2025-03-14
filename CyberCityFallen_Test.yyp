@@ -71,6 +71,7 @@
     {"id":{"name":"obj_laser_robot","path":"objects/obj_laser_robot/obj_laser_robot.yy",},},
     {"id":{"name":"obj_menu_button","path":"objects/obj_menu_button/obj_menu_button.yy",},},
     {"id":{"name":"obj_menu_music","path":"objects/obj_menu_music/obj_menu_music.yy",},},
+    {"id":{"name":"obj_menu_return_text","path":"objects/obj_menu_return_text/obj_menu_return_text.yy",},},
     {"id":{"name":"obj_play_button","path":"objects/obj_play_button/obj_play_button.yy",},},
     {"id":{"name":"obj_player_projectile","path":"objects/obj_player_projectile/obj_player_projectile.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
@@ -137,9 +138,9 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"menu_screen","path":"rooms/menu_screen/menu_screen.yy",},},
+    {"roomId":{"name":"loss_screen","path":"rooms/loss_screen/loss_screen.yy",},},
     {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"roomId":{"name":"win_screen","path":"rooms/win_screen/win_screen.yy",},},
-    {"roomId":{"name":"loss_screen","path":"rooms/loss_screen/loss_screen.yy",},},
     {"roomId":{"name":"instructions_screen","path":"rooms/instructions_screen/instructions_screen.yy",},},
     {"roomId":{"name":"credits_screen","path":"rooms/credits_screen/credits_screen.yy",},},
   ],

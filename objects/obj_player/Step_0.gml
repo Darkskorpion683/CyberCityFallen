@@ -71,41 +71,17 @@ if (XP <= 0) {
     upgrade_call_count++;
 }
 
-// Health check for regen upgrade
-if (hp < hp_max && alarm[3] <= 0) {
-    alarm[3] = regeneration_delay;
-}
-
 // Player Death
 if (hp <= 0) {
     instance_destroy();
 }
 
-// Room Bounds
-x = clamp(x, sprite_width, room_width - sprite_width);
-y = clamp(y, sprite_height / 2, room_height - sprite_height / 2);
 
-// End movement 
-
-
-// XP check for upgrade menu
-if (XP <= 0) {
-	instance_create_layer(obj_player.x, obj_player.y, "UI_Layer", obj_upgrade);
-	XP = 100
-	upgrade_call_count++;
-}
 // Health check for regen upgrade
-// Needs fixing with a timer, currently just instantly regens everything
-   
 if (hp < hp_max && alarm[3] <= 0) {
     alarm[3] = regeneration_delay;
 }
 
-
-// Player Death
-if hp <= 0 {
-	instance_destroy()	
-}
 
 // Room Bounds
 x = clamp(x, sprite_width, room_width-sprite_width)

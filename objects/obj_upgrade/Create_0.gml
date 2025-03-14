@@ -8,18 +8,18 @@ var button_spacing = 60;
 
 
 upgrade_pool = [
-    {type: "attackdmg_melee", label: "Melee Damage", value:0.5 },
+    {type: "attackdmg_melee", label: "Melee Damage", value: 10 },
     {type: "attackrange_melee", label: "Melee Range", value: 0.3 },
-    {type: "attackspeed_melee", label: "Melee Speed", value: 0.5},
-    {type: "attackdmg_ranged", label: "Projectile Damage", value :0.5 },
-    {type: "attackrange_ranged", label:"Projectile Range", value: 0.5},
-    {type: "attackspeed_ranged", label: "Projectile Speed", value:0.5},
-    {type: "attackdmg_aoe", label: "AOE Damage", value:0.5},
+    {type: "attackspeed_melee", label: "Melee Speed", value: -10},
+    {type: "attackdmg_ranged", label: "Projectile Damage", value : 5 },
+    {type: "attackrange_ranged", label:"Projectile Range", value: 100},
+    {type: "attackspeed_ranged", label: "Projectile Speed", value: -19},
+    {type: "attackdmg_aoe", label: "AOE Damage", value: 1},
     {type: "attackrange_aoe", label: "AOE Range", value: 0.5},
-    {type: "hp_max", label: "Max Health", value: 10},
-    {type: "move_speed", label: "Speed", value: 0.25},
+    {type: "hp_max", label: "Max Health", value: 25},
+    {type: "move_speed", label: "Speed", value: 0.5},
     {type: "hp_regen", label: "Regen", value:0.5},
-	{type: "hp", label: "Health", value: 25}
+	{type: "hp", label: "Full Health", value: obj_player.hp_max}
 ];
 
 // Check if the player does not have ranged weapon
