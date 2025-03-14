@@ -2,6 +2,8 @@ global.paused = false;
 global.selected_upgrades = [];
 global.upgrade_effects = [];
 global.upgrade_selected = false;
+player_disabled=false
+upgrade_call_count=0
 
 // Trapped state
 trapped = false

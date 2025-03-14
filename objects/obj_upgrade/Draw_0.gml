@@ -1,7 +1,10 @@
-var y_start = obj_player.y - 180; // Move the UI higher
-var button_width = 300;
-var button_height = 50;
-var button_spacing = 60;
+var y_start = obj_player.y - 200; 
+var button_width = 350;
+var button_height = 70;
+var button_spacing = 70;
+var num_buttons = max(array_length(all_upgrades), 1);
+var menu_width = button_width + 20; // Add some margin
+var menu_height = num_buttons * button_spacing;
 
 // Set text alignment
 draw_set_halign(fa_left);
@@ -9,12 +12,18 @@ draw_set_valign(fa_middle);
 
 for (var i = 0; i < array_length(all_upgrades); i++) {
     var upgrade = all_upgrades[i];
-    var x_pos = obj_player.x;
-    var y_pos = y_start + i * button_spacing;
+    
+    // Calculate the un-clamped positions for buttons (for interaction logic)
+    var x_pos_unclamped = obj_player.x - 100;
+    var y_pos_unclamped = y_start + i * button_spacing;
 
-    // Check if the mouse is hovering over the button
-    var hovered = (mouse_x > x_pos && mouse_x < x_pos + button_width &&
-                   mouse_y > y_pos && mouse_y < y_pos + button_height);
+    // Clamp only the drawing position (not the click detection position)
+    var x_pos = clamp(x_pos_unclamped, 20, room_width - menu_width - 20);
+    var y_pos = clamp(y_pos_unclamped, 20, room_height - menu_height - 20);
+
+    // Check if the mouse is hovering over the button (using unclamped positions)
+    var hovered = (mouse_x > x_pos_unclamped && mouse_x < x_pos_unclamped + button_width &&
+                   mouse_y > y_pos_unclamped && mouse_y < y_pos_unclamped + button_height);
 
     // Draw outer neon border
     draw_set_color(make_color_rgb(0, 255, 255)); // Bright cyan

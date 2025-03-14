@@ -1,6 +1,6 @@
 var zoom_level = 2;
 // Player movement
-
+if(!player_disabled){
 // State: Trapped for netted player
 if (trapped) {
     x = trapped_x;
@@ -62,24 +62,21 @@ if (!keyboard_check(vk_left) &&
 if (XP == 0) {
 	instance_create_layer(obj_player.x, obj_player.y, "UI_Layer", obj_upgrade);
 	XP = 100
+	upgrade_call_count++;
 }
 // Health check for regen upgrade
 // Needs fixing with a timer, currently just instantly regens everything
    
-alarm[3] = regeneration_delay;
+if (hp < hp_max && alarm[3] <= 0) {
+    alarm[3] = regeneration_delay;
+}
 
 
 // Player Death
 if hp <= 0 {
 	instance_destroy()	
+ }
 }
-
 // Room Bounds
 x = clamp(x, sprite_width, room_width-sprite_width)
 y = clamp(y, sprite_height/2, room_height-sprite_height/2)
-
-
-    
-
-
-    

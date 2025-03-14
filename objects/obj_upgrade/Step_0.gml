@@ -1,17 +1,17 @@
 // In the Step Event of obj_upgrade
 var x_offset = 25;  // Horizontal offset from player position
 var y_offset = -50; // Vertical offset from player position
-var button_height = 60; // Height of each button to make spacing more comfortable
-var y_start = obj_player.y - 180; // Move the UI higher
-var button_spacing = 60; // Increase spacing between buttons
-var button_width = 300; // Define the width of the button
+var button_height = 70; // Height of each button to make spacing more comfortable
+var y_start = obj_player.y - 200; // Move the UI higher
+var button_spacing = 70; // Increase spacing between buttons
+var button_width = 350; // Define the width of the button
 
 // Set text alignment
 draw_set_halign(fa_left);
 draw_set_valign(fa_middle);
 
 // Initialize x_pos and y_pos before using them
-var x_pos = obj_player.x + x_offset;
+var x_pos = obj_player.x - x_offset;
 var y_pos = y_start;
 
 for (var i = 0; i < array_length(all_upgrades); i++) {
