@@ -48,3 +48,11 @@ else if (obj_player.x < x) {
         image_xscale = -1; 
     }
 }
+
+// Hit marker code
+if place_meeting(x, y, obj_Slash) ||
+   place_meeting(x, y, obj_player_projectile) ||
+   place_meeting(x, y, obj_aoe_weapon) 
+{
+    hit_timer = HIT_DURATION; // Start the hit flash timer
+}

@@ -1,2 +1,2 @@
 // Cheat code for health
-obj_player.hp = 1000
+obj_player.hp = 100000

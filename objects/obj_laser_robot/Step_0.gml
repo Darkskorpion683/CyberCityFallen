@@ -33,3 +33,11 @@ if canShoot and distance_to_object(obj_player) <= attack_range {
 	
 // Track health
 if hp <= 0 then instance_destroy()
+
+// Hit marker code
+if place_meeting(x, y, obj_Slash) ||
+   place_meeting(x, y, obj_player_projectile) ||
+   place_meeting(x, y, obj_aoe_weapon) 
+{
+    hit_timer = HIT_DURATION; // Start the hit flash timer
+}

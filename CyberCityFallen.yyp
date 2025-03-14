@@ -107,7 +107,7 @@
     {"id":{"name":"spr_Building_1","path":"sprites/spr_Building_1/spr_Building_1.yy",},},
     {"id":{"name":"spr_Building2","path":"sprites/spr_Building2/spr_Building2.yy",},},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
-    {"id":{"name":"spr_Character_Idle_Suit","path":"sprites/spr_Character_Idle_Suit/spr_Character_Idle_Suit.yy",},},
+    {"id":{"name":"spr_Character_Idle_suit","path":"sprites/spr_Character_Idle_suit/spr_Character_Idle_suit.yy",},},
     {"id":{"name":"spr_Character_Running_Suit","path":"sprites/spr_Character_Running_Suit/spr_Character_Running_Suit.yy",},},
     {"id":{"name":"spr_Character_trapped_suit","path":"sprites/spr_Character_trapped_suit/spr_Character_trapped_suit.yy",},},
     {"id":{"name":"spr_Character_trapped","path":"sprites/spr_Character_trapped/spr_Character_trapped.yy",},},
