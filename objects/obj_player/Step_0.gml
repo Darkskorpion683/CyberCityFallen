@@ -64,10 +64,10 @@ if (XP == 0) {
 	XP = 100
 }
 // Health check for regen upgrade
-/* Needs fixing with a timer, currently just instantly regens everything
+// Needs fixing with a timer, currently just instantly regens everything
+   
+alarm[3] = regeneration_delay;
 
-
-*/
 
 // Player Death
 if hp <= 0 {

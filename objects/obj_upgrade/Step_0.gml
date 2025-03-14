@@ -29,19 +29,17 @@ for (var i = 0; i < array_length(all_upgrades); i++) {
             // Apply the upgrade logic (using switch statement)
             switch (upgrade.type) {
                 case "hasRanged":
-                    if (!obj_player.hasRanged) {
-                        obj_player.hasRanged = true;
-                    }
+                      obj_player.hasRanged = true;
+                    
                     break;
                 case "hasAOE":
-                    if (!obj_player.hasAOE) {
-                        obj_player.hasAOE = true;
-                    }
+                	obj_player.hasAOE = true;
+                    
                     break;
                 case "hasArmor":
-                    if (!obj_player.hasArmor) {
-                        obj_player.hasArmor = true;
-                    }
+                	obj_player.hasArmor = true;
+                    obj_player.hp_max+=5;
+					obj.player.hp+=5;
                     break;
                 case "attackdmg_melee":
                     obj_player.attackdmg_melee += upgrade.value;
@@ -67,8 +65,8 @@ for (var i = 0; i < array_length(all_upgrades); i++) {
                 case "attackrange_aoe":
                     obj_player.attackrange_aoe += upgrade.value;
                     break;
-                case "hp":
-                    obj_player.hp += upgrade.value;
+                case "move_speed":
+                    obj_player.move_speed += upgrade.value;
                     break;
                 case "hp_max":
                     obj_player.hp_max += upgrade.value;
@@ -90,6 +88,7 @@ for (var i = 0; i < array_length(all_upgrades); i++) {
     }
 }
 
+                    
 
 
 
