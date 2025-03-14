@@ -48,11 +48,24 @@ available_upgrades = [];
 if (array_length(available_upgrades) == 0 && obj_player.upgrade_call_count==0) {
     array_push(available_upgrades, {type: "hp_max", label: "Max Health", value: 3});
 }
-
+/*
 for (var i = 0; i < 3; i++) { // Select 3 random upgrades to offer
     var random_upgrade = upgrade_pool[irandom(array_length(upgrade_pool) - 1)];
     array_push(available_upgrades, random_upgrade);
 }
+*/
+ var random_upgrade1= upgrade_pool[irandom(array_length(upgrade_pool) - 1)];
+ var random_upgrade2= upgrade_pool[irandom(array_length(upgrade_pool) - 1)];
+ var random_upgrade3= upgrade_pool[irandom(array_length(upgrade_pool) - 1)];
+ while(random_upgrade2==random_upgrade1){
+	random_upgrade2= upgrade_pool[irandom(array_length(upgrade_pool) - 1)];	 
+ }
+ while(random_upgrade3==random_upgrade1||random_upgrade3==random_upgrade2){
+	random_upgrade3= upgrade_pool[irandom(array_length(upgrade_pool) - 1)];	 
+ }
+array_push(available_upgrades, random_upgrade1);
+array_push(available_upgrades, random_upgrade2);
+array_push(available_upgrades, random_upgrade3);
 
 //One-off upgrades array that will be empty was all weapons and armor are equipped
 one_off_upgrades = [
