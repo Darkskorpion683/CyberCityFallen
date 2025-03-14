@@ -34,13 +34,8 @@ for (var i = 0; i < array_length(all_upgrades); i++) {
                     break;
                 case "hasAOE":
                 	obj_player.hasAOE = true;
-                    
                     break;
-                case "hasArmor":
-                	obj_player.hasArmor = true;
-                    obj_player.hp_max+=5;
-					obj.player.hp+=5;
-                    break;
+ 
                 case "attackdmg_melee":
                     obj_player.attackdmg_melee += upgrade.value;
                     break;
@@ -69,10 +64,16 @@ for (var i = 0; i < array_length(all_upgrades); i++) {
                     obj_player.move_speed += upgrade.value;
                     break;
                 case "hp_max":
+					if(!obj_player.hasArmor){
+					obj_player.hasArmor=true;
+					}
                     obj_player.hp_max += upgrade.value;
                     break;
                 case "hp_regen":
                     obj_player.hp_regen += upgrade.value;
+                    break;
+				case "hp":
+                    obj_player.hp += upgrade.value;
                     break;
                 default:
                     // Handle other cases if necessary

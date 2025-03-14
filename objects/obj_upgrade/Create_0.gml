@@ -4,17 +4,18 @@ instance_activate_object(obj_player)
 // Repeatable Upgrades
 
 upgrade_pool = [
-    {type: "attackdmg_melee", label: " + Melee Damage", value:0.2 },
-    {type: "attackrange_melee", label: " + Melee Range", value: 0.3 },
-    {type: "attackspeed_melee", label: " + Melee Speed", value: 0.2},
-    {type: "attackdmg_ranged", label: " + Ranged Damage", value :0.4 },
-    {type: "attackrange_ranged", label:" + Ranged Range", value: 0.2},
-    {type: "attackspeed_ranged", label: " + Ranged Speed", value:0.3},
-    {type: "attackdmg_aoe", label: " +AOE Damage", value:0.3},
-    {type: "attackrange_aoe", label: "+ AOE Range", value: 0.2},
-    {type: "hp_max", label: " + Player Max Health", value: 3},
-    {type: "move_speed", label: " + Player Speed", value: 0.1},
-    {type: "hp_regen", label: " + Health Regeneration", value:0.2} 
+    {type: "attackdmg_melee", label: "Melee Damage", value:0.2 },
+    {type: "attackrange_melee", label: "Melee Range", value: 0.3 },
+    {type: "attackspeed_melee", label: "Melee Speed", value: 0.2},
+    {type: "attackdmg_ranged", label: "Ranged Damage", value :0.4 },
+    {type: "attackrange_ranged", label:"Range Increase", value: 0.2},
+    {type: "attackspeed_ranged", label: "Ranged Speed", value:0.3},
+    {type: "attackdmg_aoe", label: "AOE Damage", value:0.3},
+    {type: "attackrange_aoe", label: "AOE Range", value: 0.2},
+    {type: "hp_max", label: "Max Health", value: 3},
+    {type: "move_speed", label: "Speed", value: 0.1},
+    {type: "hp_regen", label: "Regen", value:0.5},
+	{type: "hp", label: "Health", value:5}
 ];
 
 // Check if the player does not have ranged weapon
@@ -49,15 +50,13 @@ for (var i = 0; i < 3; i++) { // Select 3 random upgrades to offer
 //One-off upgrades array that will be empty was all weapons and armor are equipped
 one_off_upgrades = [
     {type: "hasRanged", label: "Equip Ranged Weapon", value: true},
-    {type: "hasAOE", label: "Equip AOE Weapon", value: true},
-    {type: "hasArmor", label: "Put on Armor", value: true}
+    {type: "hasAOE", label: "Equip AOE Weapon", value: true}
+	
 ];
 if(obj_player.hasRanged){
 	array_delete(one_off_upgrades , 0, 1);
 }else if(obj_player.hasAOE){
 	array_delete(one_off_upgrades , 1, 1);
-}else if(obj_player.hasArmor){
-	array_delete(one_off_upgrades , 2, 1);
 }
 
 
