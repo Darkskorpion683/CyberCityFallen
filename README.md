@@ -12,6 +12,7 @@ Cheat codes:
 h - Gives extreme health bonus 
 x - Gives xp boost every click
 0 - Skips 1 minute ahead on the timer 
+r- resets player back to base; keeps stat upgrades
 
 Walkthrough:
 In order to beat the game you will need to kill waves of enemies and pick up XP drops that fill your XP bar. Filling the XP bar gives you an upgrade menu in which you can select new weapons or upgrade them to become stronger. Additionally, there are upgrades that provide player stat boosts. The game is lost when player health reaches 0. The game is won when the player can survive 10 minutes without dying.
@@ -64,6 +65,19 @@ Sound effects -
 	Player Death: player_death_ui_show.wav by nfsmaster821 -- https://freesound.org/s/697867/ -- License: Creative Commons 0
 
 	XP pickup: Bouncing Power Up 1_2 by Joao_Janz -- https://freesound.org/s/478337/ -- License: Creative Commons 0
+ 	
+  	Armor Equip: Coat zip going up by lolamadeus -- https://pixabay.com/sound-effects/coat-zip-going-up-106421/ -- Licence: Creative Commons 0
+
+     	Upgrade UI Creation : Anvil Hit 1 by michorvath -- https://pixabay.com/sound-effects/anvil-hit-1-103967/  --  Licence: Creative Commons 0
+
+        Upgrade applied: Bonus Points by Liecio -- https://pixabay.com/sound-effects/bonus-points-190035/ -- Licence: Creative Commons 0
+
+
+
+
+
+	
+
 	
 
 
