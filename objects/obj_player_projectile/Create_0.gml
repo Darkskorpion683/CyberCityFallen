@@ -1,0 +1,1 @@
+audio_play_sound(snd_player_laser_fire, 1, false);

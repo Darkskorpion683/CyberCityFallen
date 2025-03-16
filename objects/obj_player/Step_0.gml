@@ -87,3 +87,9 @@ if (hp < hp_max && alarm[3] <= 0) {
 // Room Bounds
 x = clamp(x, sprite_width, room_width-sprite_width)
 y = clamp(y, sprite_height/2, room_height-sprite_height/2)
+
+//player damage sound
+if hp < previous_hp{
+	audio_play_sound(snd_player_damage, 1, false);
+}
+previous_hp = hp

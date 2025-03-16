@@ -4,9 +4,11 @@ if (mouse_check_button_pressed(mb_left)) {
     switch (upgrade.type) {
         case "hasRanged":
             obj_player.hasRanged = true;
+			show_debug_message("Has Ranged upgrade applied.");
             break;
         case "hasAOE":
             obj_player.hasAOE = true;
+			show_debug_message("Has AOE upgrade applied.");
             break;
         case "attackdmg_melee":
             obj_player.attackdmg_melee += upgrade.value;
