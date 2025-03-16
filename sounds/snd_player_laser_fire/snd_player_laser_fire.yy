@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"snd_player_laser_fire.wav",
   "type":0,
-  "volume":0.56,
+  "volume":0.23,
 }

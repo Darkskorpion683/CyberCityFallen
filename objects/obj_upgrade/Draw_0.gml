@@ -70,6 +70,9 @@ for (var i = 0; i < array_length(all_upgrades); i++) {
     draw_text(x_pos + button_width / 2, y_pos + button_height / 2, upgrade.label);
 }
 
+// Reset text for everything else
+draw_set_halign(fa_left)
+draw_set_valign(fa_top)
 
 
 
