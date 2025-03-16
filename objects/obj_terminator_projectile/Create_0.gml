@@ -1,0 +1,1 @@
+audio_play_sound(snd_net_launch, 1, false);

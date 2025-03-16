@@ -14,9 +14,9 @@ y_pos=0;
 upgrade_pool = [
     {type: "attackdmg_melee", label: "Melee Damage", value: 10 },
     {type: "attackrange_melee", label: "Melee Range", value: 0.3 },
-    {type: "attackspeed_melee", label: "Melee Speed", value: -10},
+    {type: "attackspeed_melee", label: "Melee Speed", value: -5},
     {type: "attackdmg_ranged", label: "Projectile Damage", value : 5 },
-    {type: "attackrange_ranged", label:"Projectile Range", value: 100},
+    {type: "attackrange_ranged", label:"Projectile Range", value: 50},
     {type: "attackspeed_ranged", label: "Projectile Speed", value: -19},
     {type: "attackdmg_aoe", label: "AOE Damage", value: 1},
     {type: "attackrange_aoe", label: "AOE Range", value: 0.5},
