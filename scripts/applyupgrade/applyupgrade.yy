@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"applyupgrade",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"applyupgrade",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

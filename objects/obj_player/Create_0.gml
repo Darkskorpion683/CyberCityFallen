@@ -2,6 +2,7 @@ global.paused = false;
 global.selected_upgrades = [];
 global.upgrade_effects = [];
 global.upgrade_selected = false;
+global.instances_active = true;
 player_disabled=false
 upgrade_call_count=0
 

@@ -90,6 +90,7 @@
     {"id":{"name":"menu_screen","path":"rooms/menu_screen/menu_screen.yy",},},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"id":{"name":"win_screen","path":"rooms/win_screen/win_screen.yy",},},
+    {"id":{"name":"applyupgrade","path":"scripts/applyupgrade/applyupgrade.yy",},},
     {"id":{"name":"scr_spawning","path":"scripts/scr_spawning/scr_spawning.yy",},},
     {"id":{"name":"shd_color_tint","path":"shaders/shd_color_tint/shd_color_tint.yy",},},
     {"id":{"name":"Bone_Stew_Nick_Tiegs","path":"sounds/Bone_Stew_Nick_Tiegs/Bone_Stew_Nick_Tiegs.yy",},},

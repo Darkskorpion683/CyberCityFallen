@@ -1,11 +1,15 @@
 instance_deactivate_all(true)
 instance_activate_object(obj_player)
 obj_player.player_disabled=true;
+obj_player.hasMelee=false;
 // Repeatable Upgrades
-var button_width = 300;
-var button_height = 50;
-var button_spacing = 60;
-
+y_start = obj_player.y - 200;
+button_width = 350;
+button_height = 70;
+button_spacing = 70;
+depth = -1;
+x_pos = 0;
+y_pos=0;
 
 upgrade_pool = [
     {type: "attackdmg_melee", label: "Melee Damage", value: 10 },
@@ -44,16 +48,6 @@ if (!obj_player.hasAOE) {
 
 // initializes array to collect the random selected upgrades from the pool
 available_upgrades = [];
-
-if (array_length(available_upgrades) == 0 && obj_player.upgrade_call_count==0) {
-    array_push(available_upgrades, {type: "hp_max", label: "Equip Armor (Health)", value: 3});
-}
-/*
-for (var i = 0; i < 3; i++) { // Select 3 random upgrades to offer
-    var random_upgrade = upgrade_pool[irandom(array_length(upgrade_pool) - 1)];
-    array_push(available_upgrades, random_upgrade);
-}
-*/
  var random_upgrade1= upgrade_pool[irandom(array_length(upgrade_pool) - 1)];
  var random_upgrade2= upgrade_pool[irandom(array_length(upgrade_pool) - 1)];
  var random_upgrade3= upgrade_pool[irandom(array_length(upgrade_pool) - 1)];
@@ -67,7 +61,7 @@ array_push(available_upgrades, random_upgrade1);
 array_push(available_upgrades, random_upgrade2);
 array_push(available_upgrades, random_upgrade3);
 
-//One-off upgrades array that will be empty was all weapons and armor are equipped
+//One-off upgrades array that will be empty once all weapons and armor are equipped
 one_off_upgrades = [
     {type: "hasRanged", label: "Equip Ranged Weapon", value: true},
     {type: "hasAOE", label: "Equip AOE Weapon", value: true}
@@ -75,11 +69,43 @@ one_off_upgrades = [
 ];
 if(obj_player.hasRanged){
 	array_delete(one_off_upgrades , 0, 1);
-}else if(obj_player.hasAOE){
-	array_delete(one_off_upgrades , 1, 1);
 }
+if(obj_player.hasAOE){
+    
+ if obj_player.hasRanged then array_delete(one_off_upgrades , 0, 1);
+ if !obj_player.hasRanged then array_delete(one_off_upgrades , 1, 1);
+
+}
+
 
 
 // Combine one-off upgrades with random upgrades
 all_upgrades = array_concat(available_upgrades, one_off_upgrades);
+if (obj_player.upgrade_call_count==0) {
+    all_upgrades = [ {type: "hp_max", label: "Equip Armor (Health)", value: 3}];
+}
+num_buttons = max(array_length(all_upgrades), 1);
+menu_width = button_width + 20; // Add some margin
+menu_height = num_buttons * button_spacing;
+max_buttons_visible = floor((room_height - 40) / button_height);
+
+// Calculate the distance from the player to each edge of the room
+distance_to_left_edge = x; // Distance to the left edge
+distance_to_right_edge = room_width - x; // Distance to the right edge
+distance_to_top_edge = y; // Distance to the top edge
+distance_to_bottom_edge = room_height - y; // Distance to the bottom edge
+
+// Output the distances as debug messages in the console
+if(obj_player.hasArmor==true){
+show_debug_message("Next Object Call")
+show_debug_message("Distance to Left Edge: " + string(distance_to_left_edge));
+show_debug_message("Distance to Right Edge: " + string(distance_to_right_edge));
+show_debug_message("Distance to Top Edge: " + string(distance_to_top_edge));
+show_debug_message("Distance to Bottom Edge: " + string(distance_to_bottom_edge));
+}
+
+
+
+
+
 

@@ -64,6 +64,7 @@ if (!player_disabled) {
 }
 // End Movement
 
+
 // Handle XP check for upgrade menu
 if (XP <= 0) {
     instance_create_layer(obj_player.x, obj_player.y, "UI_Layer", obj_upgrade);
