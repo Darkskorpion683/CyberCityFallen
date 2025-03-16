@@ -54,7 +54,7 @@
     {"$GMObjectProperty":"v1","%Name":"regeneration_delay","filters":[],"listItems":[],"multiselect":false,"name":"regeneration_delay","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"60","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"attackrange_aoe","filters":[],"listItems":[],"multiselect":false,"name":"attackrange_aoe","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"attackdmg_aoe","filters":[],"listItems":[],"multiselect":false,"name":"attackdmg_aoe","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"attackrange_ranged","filters":[],"listItems":[],"multiselect":false,"name":"attackrange_ranged","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"300","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"attackrange_ranged","filters":[],"listItems":[],"multiselect":false,"name":"attackrange_ranged","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"220","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"previous_hp","filters":[],"listItems":[],"multiselect":false,"name":"previous_hp","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"100","varType":0,},
   ],
   "resourceType":"GMObject",

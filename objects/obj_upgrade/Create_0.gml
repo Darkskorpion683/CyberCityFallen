@@ -17,7 +17,7 @@ upgrade_pool = [
     {type: "attackspeed_melee", label: "Melee Speed", value: -5},
     {type: "attackdmg_ranged", label: "Projectile Damage", value : 5 },
     {type: "attackrange_ranged", label:"Projectile Range", value: 50},
-    {type: "attackspeed_ranged", label: "Projectile Speed", value: -19},
+    {type: "attackspeed_ranged", label: "Projectile Rate", value: -10},
     {type: "attackdmg_aoe", label: "AOE Damage", value: 1},
     {type: "attackrange_aoe", label: "AOE Range", value: 0.5},
     {type: "hp_max", label: "Max Health", value: 25},
