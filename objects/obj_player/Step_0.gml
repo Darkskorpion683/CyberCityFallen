@@ -69,7 +69,7 @@ if (!player_disabled) {
 if (XP <= 0) {
     instance_create_layer(obj_player.x, obj_player.y, "UI_Layer", obj_upgrade);
     XP = 100;
-    upgrade_call_count++;
+    
 }
 
 // Player Death

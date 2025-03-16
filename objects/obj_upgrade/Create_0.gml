@@ -2,6 +2,9 @@ instance_deactivate_all(true)
 instance_activate_object(obj_player)
 obj_player.player_disabled=true;
 obj_player.hasMelee=false;
+audio_play_sound(snd_Upgrade_spawn, 99,false);
+audio_sound_gain(snd_Upgrade_spawn, 1, 1500);
+audio_sound_gain(snd_Upgrade_spawn, 1, 1500);
 // Repeatable Upgrades
 y_start = obj_player.y - 200;
 button_width = 350;
