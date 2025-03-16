@@ -67,6 +67,9 @@ one_off_upgrades = [
     {type: "hasAOE", label: "Equip AOE Weapon", value: true}
 	
 ];
+
+
+// Remove one off upgrades after selection
 if(obj_player.hasRanged){
 	array_delete(one_off_upgrades , 0, 1);
 }
@@ -76,7 +79,6 @@ if(obj_player.hasAOE){
  if !obj_player.hasRanged then array_delete(one_off_upgrades , 1, 1);
 
 }
-
 
 
 // Combine one-off upgrades with random upgrades

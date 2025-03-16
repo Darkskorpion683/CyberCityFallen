@@ -4,6 +4,7 @@ if (mouse_check_button_pressed(mb_left)) {
     switch (upgrade.type) {
         case "hasRanged":
             obj_player.hasRanged = true;
+            obj_player.alarm[2] = obj_player.attackspeed_ranged;
 			show_debug_message("Has Ranged upgrade applied.");
             break;
         case "hasAOE":
